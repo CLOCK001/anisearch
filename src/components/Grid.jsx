@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Grid({ data }) {
   return (
-    <div className="m-2 grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    <div className="m-2 grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
       {data.map((item) => (
         <div key={item.mal_id}>
           <Card

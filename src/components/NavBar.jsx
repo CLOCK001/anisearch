@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <div className="bg-sky-600 text-white flex justify-between">
+    <div className="bg-gray-700 text-white flex justify-between">
       <h2 className="m-2 text-lg">AniSearch</h2>
 
       <h2 className="m-2 text-lg">Top anime</h2>
